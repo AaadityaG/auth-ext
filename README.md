@@ -38,6 +38,7 @@ A React-based browser extension for authentication management.
    - Open your browser's extension management page (e.g., `chrome://extensions` for Chrome)
    - Enable "Developer mode"
    - Click "Load unpacked" and select the `dist/` folder from this project
+   - #### You can even select this respos `dist/` folder too!
 
 ### Environment Configuration
 
