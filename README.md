@@ -40,6 +40,7 @@ A React-based browser extension for authentication management.
    - Click "Load unpacked" and select the `dist/` folder from this project
    - #### You can even select this respos `dist/` folder too!
 
+   - #### You can also directly download and click here- [Download Extension](https://drive.google.com/file/d/1t5hKJSWyuX8omrtAJPnqgxsfizb7Ld38/view?usp=sharing)
 ### Environment Configuration
 
 The project supports two environment instances:
