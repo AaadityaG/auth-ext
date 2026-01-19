@@ -45,7 +45,7 @@ export function LoginCard({ onLogin }: LoginCardProps) {
 
           {/* Header */}
           <div className="text-center space-y-1">
-            <p className="font-bold text-3xl text-foreground">Edvi Login</p>
+            <p className="font-bold text-3xl text-foreground">Login</p>
             <p className="text-sm font-semibold text-muted-foreground">Please Log In To Continue</p>
           </div>
 
@@ -82,6 +82,21 @@ export function LoginCard({ onLogin }: LoginCardProps) {
               )}
             </Button>
           </form>
+
+          {/* Info about getting credentials */}
+          <div className="text-center pt-4">
+            <p className="text-xs text-muted-foreground">
+              Need login credentials? Visit{" "}
+              <a 
+                href="https://dummyjson.com/users" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-blue-500 hover:underline underline-offset-2"
+              >
+                dummyjson.com/users
+              </a>
+            </p>
+          </div>
         </CardContent>
       </Card>
     </div>
